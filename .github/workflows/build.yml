@@ -15,10 +15,10 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/physwizz/a146p-T
+          kernel-url: https://github.com/AKMAL29w/Source-kernel-sm-a146p-android14
           kernel-dir: msm-4.19
           kernel-branch: main
-          config: physwizz_defconfig
+          config: akmlwl_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true

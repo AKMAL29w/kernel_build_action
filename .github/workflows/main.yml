@@ -27,10 +27,10 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/AKMAL29w/Source-kernel-samsung-a14-5g-android-14
-          kernel-dir: kernel
+          kernel-url: https://github.com/AKMAL29w/Source-kernel-sm-a146p-android14
+          kernel-dir: msm
           kernel-branch: main
-          config: a14xm_defconfig
+          config: akmlwl_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true

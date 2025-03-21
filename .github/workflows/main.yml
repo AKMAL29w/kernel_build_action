@@ -28,7 +28,7 @@ jobs:
       uses: ./
       with:
           kernel-url: https://github.com/AKMAL29w/Source-kernel-sm-a146p-android14
-          kernel-dir: msm
+          kernel-dir: msm-4.19
           kernel-branch: main
           config: akmlwl_defconfig
           arch: arm64

@@ -27,10 +27,10 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/physwizz/a146p-T
-          kernel-dir: msm-4.19
+          kernel-url: https://github.com/AKMAL29w/Source-kernel-samsung-a14-5g-android-14
+          kernel-dir: kernel
           kernel-branch: main
-          config: physwizz_defconfig
+          config: a14xm_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
